@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015220F71A65EE9E0067069F /* TutorialItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015220F61A65EE9E0067069F /* TutorialItemViewController.swift */; };
+		015220FA1A65F85E0067069F /* TutorialSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015220F81A65F85E0067069F /* TutorialSliderViewController.swift */; };
+		015220FB1A65F85E0067069F /* TutorialSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015220F91A65F85E0067069F /* TutorialSliderViewController.xib */; };
 		01D9F1261A1BC8A60062AD98 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D9F1241A1BC8A60062AD98 /* TwitterKit.framework */; };
 		01D9F1271A1BC8A60062AD98 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01D9F1251A1BC8A60062AD98 /* TwitterKitResources.bundle */; };
 		01D9F1291A1C2DCE0062AD98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D9F1281A1C2DCE0062AD98 /* LoginViewController.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		015220F61A65EE9E0067069F /* TutorialItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialItemViewController.swift; sourceTree = "<group>"; };
+		015220F81A65F85E0067069F /* TutorialSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSliderViewController.swift; sourceTree = "<group>"; };
+		015220F91A65F85E0067069F /* TutorialSliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TutorialSliderViewController.xib; path = App/TutorialSliderViewController.xib; sourceTree = "<group>"; };
 		01D9F1241A1BC8A60062AD98 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = SOURCE_ROOT; };
 		01D9F1251A1BC8A60062AD98 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = SOURCE_ROOT; };
 		01D9F1281A1C2DCE0062AD98 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 				822A4AAD1A0456DF00884B10 /* AppDelegate.swift */,
 				822A4AAF1A0456DF00884B10 /* RootViewController.swift */,
 				822A4AB11A0456DF00884B10 /* Main.storyboard */,
+				015220F91A65F85E0067069F /* TutorialSliderViewController.xib */,
 				822A4AB41A0456DF00884B10 /* Images.xcassets */,
 				822A4AB61A0456DF00884B10 /* LaunchScreen.xib */,
 				822A4AAB1A0456DF00884B10 /* Supporting Files */,
@@ -153,6 +160,8 @@
 		822DFF711A0EA6470023AE19 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				015220F81A65F85E0067069F /* TutorialSliderViewController.swift */,
+				015220F61A65EE9E0067069F /* TutorialItemViewController.swift */,
 				824D347A1A1696F300975EDD /* Inbox */,
 				824D34791A1696EB00975EDD /* Contacts */,
 				824D34781A1696E500975EDD /* Record */,
@@ -339,6 +348,7 @@
 			files = (
 				01D9F1271A1BC8A60062AD98 /* TwitterKitResources.bundle in Resources */,
 				822A4AB31A0456DF00884B10 /* Main.storyboard in Resources */,
+				015220FB1A65F85E0067069F /* TutorialSliderViewController.xib in Resources */,
 				822A4AB81A0456DF00884B10 /* LaunchScreen.xib in Resources */,
 				822A4AB51A0456DF00884B10 /* Images.xcassets in Resources */,
 			);
@@ -376,6 +386,8 @@
 			files = (
 				822A4AB01A0456DF00884B10 /* RootViewController.swift in Sources */,
 				822A4AAE1A0456DF00884B10 /* AppDelegate.swift in Sources */,
+				015220FA1A65F85E0067069F /* TutorialSliderViewController.swift in Sources */,
+				015220F71A65EE9E0067069F /* TutorialItemViewController.swift in Sources */,
 				822DFF771A0EA6AA0023AE19 /* RecordViewController.swift in Sources */,
 				824D34981A16AC4B00975EDD /* NSObject+Basics.swift in Sources */,
 				824D348B1A16A93500975EDD /* ContactsCollectionViewController.swift in Sources */,

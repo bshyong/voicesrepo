@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Voices/App/TutorialItemViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Voices/App/TutorialItemViewController.xib">
+   </FileRef>
+   <FileRef
       location = "container:Voices.xcodeproj">
    </FileRef>
 </Workspace>
